@@ -146,4 +146,7 @@ body {
     .wrapper .sub-title {
         font-size: 2em;
     }
+    .social-media .fa {
+        margin: -3px 5px 0;
+    }
 }
