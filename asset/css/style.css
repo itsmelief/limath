@@ -1,0 +1,149 @@
+/* Google Font | Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background: #ecf0f3;
+}
+
+.wrapper {
+    text-align: center;
+    width: 350px;
+    height: 585px;
+    background: #ecf0f3;
+    border-radius: 35px;
+    padding: 40px 30px;
+    box-shadow: 13px 13px 20px #cbced1,
+        -13px -13px 20px #ffffff;
+}
+
+.wrapper .logo {
+    background: url("../image/logo.png"); /* Logo by Pixabay.com */
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -22px auto;
+    margin-bottom: 15px;
+    box-shadow: 
+    /* Logo Shadow */
+    0px 0px 2px #5f5f5f,
+    /* Offset */
+    0px 0px 0px 5px #ecf0f3,
+    /* Bottom Right */
+    8px 8px 15px #a7aaaf,
+    /* Top Left */
+    -8px -8px 15px #ffffff;
+}
+
+.wrapper .title {
+    color: #24cfaa;
+    font-size: 2.4em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.wrapper .sub-title {
+    font-family: 'Tangerine', cursive;
+    color: #c3d1dd;
+    font-size: 2.1em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c3d1dd;
+    margin-bottom: 13px;
+}
+
+.wrapper .text {
+    border-bottom: 1px solid #c3d1dd;
+    padding-bottom: 13px;
+}
+
+.btn-to-qt {
+    margin: 25px 0;
+    width: 100%;
+    height: 50px;
+    color: #24cfaa;
+    font-size: 18px;
+    font-weight: 700;
+    background: #dde1e7;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 1px 1px 25px #babecc,
+                -5px -5px 10px #ffffff73;
+    animation: animate 1.5s infinite;
+} @keyframes animate {
+    0% {
+        box-shadow: 0 0;
+    }
+}
+
+.btn-to-qt:hover {
+    animation: none;
+    box-shadow: inset 1px 1px 5px #babecc,
+                inset -5px -5px 10px #ecf0f373;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media .fa {
+    margin: 5px 5px 0;
+    width: 40px;
+    height: 40px;
+    color: #a5b4c1;
+    font-size: 1.5em;
+    cursor: pointer;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.social-media .fa-facebook:hover {
+    background: #3b5998;
+    color: #d8e3e7;
+    transform: translateY(-7px);
+}
+.social-media .fa-github:hover {
+    background: #171515;
+    color: #d8e3e7;
+    transform: translateY(-7px);
+}
+.social-media .fa-whatsapp:hover {
+    background: #25d366;
+    color: #d8e3e7;
+    transform: translateY(-7px);
+}
+
+/* Responsive for mobile */ 
+@media screen and (max-width: 465px) {
+    .wrapper {
+        width: 315px;
+        height: 465px;
+    }
+    .wrapper .logo {
+        display: none;
+    }
+    .wrapper .title {
+        margin: -22px 0 0;
+        font-size: 2.2em;
+    }
+    .wrapper .sub-title {
+        font-size: 2em;
+    }
+}

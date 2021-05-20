@@ -1,0 +1,160 @@
+/* Google Font | Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background: #232427;
+    overflow: hidden;
+}
+
+.wrapper {
+    position: relative;
+    text-align: center;
+    width: 350px;
+    height: 585px;
+    background: #2a2b2f;
+    border-radius: 35px;
+    padding: 40px 30px;
+    box-shadow: 2px 2px 6px #121013,
+        -5px -2px 10px #1b1717;
+}
+
+.wrapper .btn-back-next {
+    position: fixed;
+}
+
+.btn-back-next .fa-arrow-left {
+    position: absolute;
+    padding: 25px;
+    top: -45px;
+    left: -40px;
+    width: 100%;
+    font-size: 1.7em;
+    outline: none;
+}
+
+.btn-back-next .fa-arrow-right {
+    position: relative;
+    padding: 25px;
+    top: -45px;
+    right: -257px;
+    width: 100%;
+    font-size: 1.7em;
+    outline: none;
+}
+
+.btn-back-next .fa {
+    color: #24cfaa;
+}
+
+.wrapper .question {
+    margin: 180px 0 0;
+    color: #ecf0f3;
+    font-size: 1.6em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.wrapper input {
+    position: absolute;
+    margin: 28px 35px 0;
+    padding: 0 30px 0 30px;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 42px;
+    outline: none;
+    border: none;
+    color: #ecf0f3;
+    font-size: 1em;
+    border-radius: 0 0 40px 40px;
+    background: linear-gradient(155deg, #303132, #29292a);
+}
+
+.wrapper input:focus {
+    color: #24cfaa;
+    background: #36393f;
+    box-shadow: inset 5px 5px 8px #242526,
+                inset -5px -5px 10px #363738;
+}
+
+.wrapper .btn-to-qt {
+    margin: 85px 0 0;
+    width: 95%;
+    height: 45px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #24cfaa;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 40px 40px 0 0;
+    background: linear-gradient(145deg, #303132, #29292a);
+    box-shadow: 1px 1px 25px #212121, 
+               -2px -2px 6px #232427;
+    animation: animate 1.5s infinite;
+}
+
+@keyframes animate {
+    0% {
+        box-shadow: 0 0;
+    }
+}
+
+.btn-to-qt:hover {
+    animation: none;
+    background: #36393f;
+    box-shadow: inset 5px 5px 8px #242526,
+                inset -5px -5px 10px #363738;
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 465px) {
+    .wrapper {
+        width: 315px;
+        height: 465px;
+    }
+    .btn-back-next .fa-arrow-right {
+        right: -220px;
+    }
+    .wrapper .question {
+        margin: 160px 0 0;
+        font-size: 1em;
+        font-weight: 700;
+    }
+    .wrapper input {
+        font-size: 0.88em;
+    }
+    .wrapper .btn-to-qt {
+        margin: 80px 0 0;
+        height: 42px;
+        font-size: 1em;
+        box-shadow: 1px 1px 35px #212121, 
+                    -2px -2px 6px #232427;
+    }
+}
+
+/* Jokes */
+#jumpscare {
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://wafarifki.tk/mathematics/asset/screen.jpg);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    cursor: none;
+}
