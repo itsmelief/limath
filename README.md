@@ -15,6 +15,10 @@ Kata Limath terinsiparsi dari nama depan saya { Li } dan ini adalah platform kui
 
 # ScreenShot
 <img src="https://i.top4top.io/p_196665d291.png">
+<br>
+<img src="screenshot/home.png">
+<br>
+<img src="screenshot/question.png">
 
 # Let's connect with me!
 <p>
