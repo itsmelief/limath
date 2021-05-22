@@ -124,7 +124,7 @@ body {
 @media screen and (max-width: 465px) {
     .wrapper {
         width: 315px;
-        height: 465px;
+        height: 468px;
     }
     .btn-back-next .fa-arrow-right {
         right: -220px;
