@@ -13,8 +13,10 @@ Kata Limath terinsiparsi dari nama depan saya { Li } dan ini adalah platform kui
 # Demo Site | Limath
 <a href="https://itsmelief.github.io/limath/">https://itsmelief.github.io/limath/</a>
 
-# ScreenShot
-Desktop
+# ScreenShot | Desktop
+<img src="screenshot/home.PNG" height=500><img src="screenshot/question.PNG" height=500 align=right>
+
+# ScreenShot | Mobile
 <img src="screenshot/home.PNG" height=500><img src="screenshot/question.PNG" height=500 align=right>
 
 # Let's connect with me!
