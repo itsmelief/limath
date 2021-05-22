@@ -19,7 +19,7 @@ Kata Limath terinsiparsi dari nama depan saya { Li } dan ini adalah platform kui
 # Let's connect with me!
 <p>
     <a href="https://itsmelief.my.id" target="_blank"><img src="https://img.shields.io/badge/Website-https://itsmelief.my.id-blue?" /></a>
-    <a href="https://facebook.com/heyy.liff.56" target="_blank"><img src="https://img.shields.io/badge/Facebook-heyy.liff.56-red" /></a>
+    <a href="https://facebook.com/heyy.liff.56" target="_blank"><img src="https://img.shields.io/badge/Facebook-heyy.liff.56-#24cfaa" /></a>
     <a href="https://wa.me/6282113345886?text=Halo+Bang+Lief+Tampan :v" target="_blank"><img src="https://img.shields.io/badge/Whatsapp-@itsmelief-blue" /></a>
 </p>
 
