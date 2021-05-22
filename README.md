@@ -14,8 +14,7 @@ Kata Limath terinsiparsi dari nama depan saya { Li } dan ini adalah platform kui
 <a href="https://itsmelief.github.io/limath/">https://itsmelief.github.io/limath/</a>
 
 # ScreenShot
-<img src="screenshot/home.PNG">
-<img src="screenshot/question.PNG">
+<img src="screenshot/home.PNG"> <img src="screenshot/question.PNG">
 
 # Let's connect with me!
 <p>
