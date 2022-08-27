@@ -1,3 +1,0 @@
-Resolusi di tahun 2022 :
-- Membuat website statis dengan tema Health Care
-- Mempelajari defacing
